@@ -5,7 +5,7 @@ class DealsController < ApplicationController
 
   def index
     @deals = Deal.all
-    json_response(@deals)
+    paginate json: @deals , per_page: 10
   end
 
   def show
