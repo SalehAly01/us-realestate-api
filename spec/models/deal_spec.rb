@@ -12,7 +12,7 @@ RSpec.describe Deal, type: :model do
   it { should validate_numericality_of(:baths) }
   it { should validate_presence_of(:sq_ft) }
   it { should validate_numericality_of(:sq_ft) }
-  it { should validate_presence_of(:type) }
+  it { should validate_presence_of(:realty_type) }
   it { should validate_presence_of(:sale_date) }
   it { should validate_presence_of(:price) }
   it { should validate_numericality_of(:price) }
