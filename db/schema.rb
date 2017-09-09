@@ -10,26 +10,26 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170909181227) do
+ActiveRecord::Schema.define(version: 20170909204030) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "deals", force: :cascade do |t|
-    t.string   "street"
-    t.string   "city"
-    t.string   "zip"
-    t.string   "state"
-    t.bigint   "beds"
-    t.bigint   "baths"
-    t.bigint   "sq_ft"
-    t.string   "type"
-    t.datetime "sale_date"
-    t.bigint   "price"
-    t.float    "latitude"
-    t.float    "longitude"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.string   "street",      null: false
+    t.string   "city",        null: false
+    t.string   "zip",         null: false
+    t.string   "state",       null: false
+    t.bigint   "beds",        null: false
+    t.bigint   "baths",       null: false
+    t.bigint   "sq_ft",       null: false
+    t.string   "realty_type", null: false
+    t.datetime "sale_date",   null: false
+    t.bigint   "price",       null: false
+    t.float    "latitude",    null: false
+    t.float    "longitude",   null: false
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
   end
 
 end
