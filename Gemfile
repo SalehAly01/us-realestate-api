@@ -14,6 +14,11 @@ gem 'rails', '~> 5.0.5'
 gem 'pg', '~> 0.18'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
+gem 'grape', '>= 0.10.0'
+gem 'kaminari'
+gem 'api-pagination'
+
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: %i[mri mingw x64_mingw]

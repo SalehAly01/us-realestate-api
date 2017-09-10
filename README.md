@@ -24,6 +24,13 @@ $ cd us-realestate-transactions-api
 $ bin/setup
 ```
 
+To date from the csv file to your database run:
+
+```bash
+$ rails db:seed
+```
+
+
 After `bin/setup` finishes, run the server.
 
 ```bash
