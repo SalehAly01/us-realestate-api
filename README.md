@@ -20,7 +20,7 @@ $ rvm use --create --ruby-2.4.1@us-realestate-api
 Update the database configuration settings according to your environment, then run `bin/setup`.
 
 ```bash
-$ cd us-realestate-transactions-api
+$ cd us-realestate-api
 $ bin/setup
 ```
 
